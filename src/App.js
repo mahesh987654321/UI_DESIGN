@@ -1,4 +1,5 @@
 import { Brand, Cta, Navbar } from "./components";
+import "./App.css";
 import {
   Blog,
   Fetures,
@@ -9,8 +10,8 @@ import {
 } from "./containers";
 function App() {
   return (
-    <div>
-      <div>
+    <div className="App">
+      <div className="gradient__bg">
         <Header />
         <Navbar />
       </div>
