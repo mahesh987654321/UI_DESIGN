@@ -12,8 +12,8 @@ function App() {
   return (
     <div className="App">
       <div className="gradient__bg">
-        <Header />
         <Navbar />
+        <Header />
       </div>
       <Brand />
       <WhatGPT3 />
